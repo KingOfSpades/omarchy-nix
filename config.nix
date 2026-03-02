@@ -40,10 +40,6 @@ lib: {
       type = lib.types.str;
       default = "Liberation Sans 11";
     };
-    vscode_settings = lib.mkOption {
-      type = lib.types.attrs;
-      default = { };
-    };
     monitors = lib.mkOption {
       type = lib.types.listOf lib.types.str;
       default = [ ];
